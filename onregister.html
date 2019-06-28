@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER</title>
+	<style>
+	body{
+		background-image: url(onregisteri.jpg);
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+	
+</style>
+</head>
+<body style="font-family:cursive; color:white;">
+	<h1 align="center"> REGISTRATION FORM </h1>
+
+<form method="post">
+	<table  cellspacing="0" cellpadding="10" align="center" width="100%">
+		<tr> <th> FIRST NAME </th>
+			<td> <input type="text" name="fn" maxlength="10" title="ENTER YOUR FIRST NAME" placeholder="Enter your firstname"/> </td>
+		</tr>
+		<tr> <th> LAST NAME </th>
+			<td> <input type="text" name="ln" maxlength="10" title="ENTER YOUR LAST NAME" placeholder="Enter your lastname"/> </td>
+		</tr>
+		<tr> <th> DATE OF BIRTH </th>
+			<td> <input type="date" name="db" maxlength="10" title="ENTER YOUR DATE OF BIRTH" placeholder="Enter your DOB"/> </td>
+		</tr>
+		<tr> <th> EMAIL ID </th>
+			<td> <input type="email" name="em" maxlength="10" title="ENTER YOUR EMAIL ID" placeholder="Enter your email address"/> </td>
+		</tr>
+		<tr> <th> MOBILE NUMBER </th>
+			<td> <input type="number" name="mb" maxlength="10" title="ENTER YOUR MOBILE NUMBER" placeholder="Enter your mobile number"/> </td>
+		</tr>
+		<tr> <th> ADDRESS </th>
+			<td> <textarea rows="8" cols="20"> </textarea> </td>
+		</tr>
+		<tr> <th> GENDER </th>
+			<td>  <input type="radio" name="g" value="m" /> MALE
+				 <input type="radio" name="g" value="f" />  FEMALE
+			</td>
+		</tr>	
+		<tr> <th> UPLOAD YOUR PICTURE </th>
+			<td> <input type="file"/> </td>
+		</tr>
+		<tr> <td colspan="2" align="center">
+
+			<input type="submit" value="SUBMIT"/>
+
+			<input type="reset" value="RESET"/>
+		</td>
+	</tr>
+	</table>
+	</form>
+</body>
+</html>
